@@ -1,0 +1,12 @@
+.classpath
+.project
+.settings
+.springBeans
+.svn
+logs
+target
+.idea
+.DS_*
+*.iml
+*.ipr
+*.iws
