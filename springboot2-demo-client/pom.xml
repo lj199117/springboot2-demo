@@ -27,12 +27,6 @@
 			<artifactId>httpasyncclient</artifactId>
 			<scope>provided</scope>
 		</dependency>
-
-		<dependency>
-			<groupId>com.edmond</groupId>
-			<artifactId>edmond-boot</artifactId>
-			<scope>provided</scope>
-		</dependency>
 	</dependencies>
 
 	<properties>
