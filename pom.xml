@@ -27,4 +27,42 @@
 		<module>springboot2-demo-center</module>
 		<module>springboot2-demo-client</module>
 	</modules>
+	
+	<distributionManagement>
+	    <repository>
+	        <id>hy-releases</id>
+	        <name>a906cc4277e4-releases</name>
+	        <url>http://artifactory.ifunpm.com/artifactory/libs-release</url>
+	    </repository>
+	    <snapshotRepository>
+	        <id>hy-snapshots</id>
+	        <name>a906cc4277e4-snapshots</name>
+	        <url>http://artifactory.ifunpm.com/artifactory/libs-snapshot</url>
+	    </snapshotRepository>
+	</distributionManagement>
+	
+	<repositories>
+		<repository>
+			<id>hy-releases</id>
+			<!-- artifactory.ifunpm.com -->
+			<url>http://artifactory.ifunpm.com/artifactory/libs-release/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>hy-snapshots</id>
+			<url>http://artifactory.ifunpm.com/artifactory/libs-snapshot/</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</repository>
+	</repositories>
 </project>
