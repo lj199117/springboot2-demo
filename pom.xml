@@ -32,12 +32,12 @@
 	    <repository>
 	        <id>releases</id>
 	        <name>a906cc4277e4-releases</name>
-	        <url>http://artifactory.edmond.com/artifactory/libs-release</url>
+	        <url>http://192.168.60.191:8081/artifactory/libs-release</url>
 	    </repository>
 	    <snapshotRepository>
 	        <id>snapshots</id>
 	        <name>a906cc4277e4-snapshots</name>
-	        <url>http://artifactory.edmond.com/artifactory/libs-snapshot</url>
+	        <url>http://192.168.60.191:8081/artifactory/libs-snapshot</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
@@ -45,7 +45,7 @@
 		<repository>
 			<id>releases</id>
 			<!-- artifactory.ifunpm.com -->
-			<url>http://artifactory.edmond.com/artifactory/libs-release/</url>
+			<url>http://192.168.60.191:8081/artifactory/libs-release/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -55,7 +55,7 @@
 		</repository>
 		<repository>
 			<id>snapshots</id>
-			<url>http://artifactory.edmond.com/artifactory/libs-snapshot/</url>
+			<url>http://192.168.60.191:8081/artifactory/libs-snapshot/</url>
 			<releases>
 				<enabled>false</enabled>
 			</releases>
