@@ -44,7 +44,6 @@
 	<repositories>
 		<repository>
 			<id>releases</id>
-			<!-- artifactory.ifunpm.com -->
 			<url>http://192.168.60.191:8081/artifactory/libs-release/</url>
 			<releases>
 				<enabled>true</enabled>
